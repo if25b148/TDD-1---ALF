@@ -12,4 +12,6 @@ StringCalculator.prototype.add = function(string_numbers) {
 			return [x, rows.length - 1 - y];
 		}
 	}
+
+	return 'Spaceship lost forever.';
 };

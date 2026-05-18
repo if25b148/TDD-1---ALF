@@ -30,4 +30,8 @@ describe('String Calculator', function() {
 	it('should return [0,0] for ...\nX..', function() {
 	expect(calculator.add('...\nX..')).toEqual([0,0]);
 	});
+
+	it('should return "Spaceship lost forever." for ...\n...\n...', function() {
+	expect(calculator.add('...\n...\n...')).toEqual('Spaceship lost forever.');
+	});
 });
