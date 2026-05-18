@@ -1,0 +1,15 @@
+1. Spaceship in einer einzelnen Zeile finden (y = 0)
+"X" => [0,0]
+".X" => [1,0]
+"..X" => [2,0]
+
+2. Spaceship in mehrzeiligen Maps erkennen
+"X\n." => [0,1]
+".\nX" => [0,0]
+
+3. Kombination von x- und y-Koordinate im Raster
+"..X.\n...." => [2,1]
+"...\nX.." => [0,0]
+
+4. Fehlerfall: kein Spaceship vorhanden
+"...\n...\n..." => "Spaceship lost forever."
