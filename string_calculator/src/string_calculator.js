@@ -1,5 +1,8 @@
 // StringCalculator.js
 function StringCalculator() {}
 StringCalculator.prototype.add = function(string_numbers) {
-	return [0,0];
+
+	var x = string_numbers.indexOf('X');
+
+	return [x, 0];
 };
